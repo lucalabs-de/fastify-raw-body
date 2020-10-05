@@ -25,12 +25,13 @@
     "node": ">= 10"
   },
   "homepage": "https://github.com/Eomm/fastify-raw-body#readme",
+  "types": "types/plugin.d.ts",
   "devDependencies": {
-    "fastify": "^3.0.0-rc.4",
     "standard": "^14.3.4",
     "tap": "^14.10.7"
   },
   "dependencies": {
+    "fastify": "^3.0.0-rc.4",
     "fastify-plugin": "^2.0.0",
     "raw-body": "^2.4.1",
     "secure-json-parse": "^2.1.0"
